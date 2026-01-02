@@ -7,7 +7,7 @@ import 'package:nxltechmachinetest/viewPage/loginPageView.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(); // 🔥 REQUIRED
+  await Firebase.initializeApp();
   runApp(
     ChangeNotifierProvider(
       create: (_) => AuthProvider(),
